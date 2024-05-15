@@ -1,0 +1,32 @@
+.hero-lopez  {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-image: url(../images/sj-041.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+main {
+    grid-auto-rows: minmax(400px, auto);
+    grid-template-areas: 
+    "first second sidebar"
+    "first middle sidebar"
+    "first last last"
+    "bottom1 bottom1 bottom2"
+
+}
+.item1 {
+    grid-area: first;
+    height: 100%;
+    background-image: url(../images/sj-063.jpg);
+
+}
+.item2 {
+    grid-area: second;
+}
+.pic4 {
+    background-image: url(../images/sj-057.jpg);
+    
+}
