@@ -12,7 +12,7 @@ main {
     grid-auto-rows: minmax(400px, auto);
     grid-template-areas: 
     "first second sidebar"
-    "first middle sidebar"
+    "first kaiser sidebar"
     "first last last"
     "bottom1 bottom1 bottom2"
 
@@ -28,5 +28,27 @@ main {
 }
 .pic4 {
     background-image: url(../images/sj-057.jpg);
-    
+}
+.pic2  {
+    background-image: url(../images/sj-030.jpg);
+}
+.pic6  {
+    background-image: url(../images/sj-026.jpg);
+
+}
+.item3 {
+    grid-area: sidebar;
+    height:100%
+}
+.item4 {
+    grid-area: middle;
+}
+.item5 {
+    grid-area:last;
+}
+.item6 {
+    grid-area:bottom1;
+}
+.item7 {
+    grid-area:bottom2;
 }
