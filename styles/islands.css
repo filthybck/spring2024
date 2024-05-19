@@ -14,7 +14,7 @@ font-size:16px;
 main, header, nav ul, footer {
 display: grid;
 grid-template-columns:auto auto auto;
-/* background-color: lightgray; */
+background-color: lightgray;
 }
 main section {
 border:solid white 1px;
