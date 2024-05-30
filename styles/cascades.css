@@ -1,6 +1,21 @@
 @charset "UTF-8";
 /* css document */
-
+  
+  @media screen and (min-width: 481px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 641px) {
+    body {
+      background-color: rgb(250, 246, 230);
+    }
+    @media screen and (min-width: 961px) {
+    body {
+      background-color: rgb(16, 16, 208);
+  
+    }
 body  { 
     background-image: url(../images/cascade_mountains-bg.jpg);
     background-repeat: no-repeat;
@@ -8,8 +23,53 @@ body  {
     background-size: cover;
     margin:0px;
     padding:0px;
-    color:#344e5f;  
+    color:#344e5f;
+    background-color:lightblue ;  
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
     header,section,aside,article,footer,figure {
         display: block; 
