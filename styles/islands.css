@@ -17,7 +17,7 @@ grid-template-columns:auto auto auto;
 background-color: lightgray;
 }
 main section {
-border:solid white 1px;
+border:solid grey 1px;
 text-align: center;
 padding:20px;
 }
