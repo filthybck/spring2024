@@ -81,3 +81,19 @@ toggle-button  {
     nav a {
         border: 0px;
     }
+    @media screen and (min-width: 481px) {
+        body {
+          background-color: lightgreen;
+        }
+      }
+      
+      @media screen and (min-width: 641px) {
+        body {
+          background-color: rgb(250, 246, 230);
+        }
+        @media screen and (min-width: 961px) {
+        body {
+          background-color: rgb(16, 16, 208);
+      
+        }
+    
